@@ -1,0 +1,342 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/***************************
+            Banner
+****************************/
+.banner {
+    background-image: url("images/gourav.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.bannerContent {
+    padding-top: 220px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.commonButton {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: rgb(0, 189, 120);
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 9PX;
+    cursor: pointer;
+}
+
+/***************************
+        Donate Today
+****************************/
+
+.donateToday {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.donateToday h1 {
+    font-size: 50px;
+}
+
+.donateToday p {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.donationAmount {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.amount {
+    width: 20%;
+    margin: 20px;
+    padding: 30px 25px;
+    background-color: rgb(237, 237, 237);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#specialAmount {
+    background-color: rgba(0, 189, 120, 0.175);
+    color: rgb(0, 189, 120);
+}
+
+.donateToday input {
+    margin: 30px 0;
+    padding: 5px 200px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(195, 195, 195);
+}
+
+.donateToday button {
+    border: none;
+}
+
+/***************************
+    Our Donate Plan
+****************************/
+.ourDonatePlan {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.ourDonatePlan h1 {
+    font-size: 50px;
+}
+
+.ourDonatePlan h4 {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+
+.ourDonatePlan p {
+    color: rgb(132, 132, 132);
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.donationPlans {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.plan {
+    width: 33.33%;
+    padding: 40px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.plan img {
+    margin-bottom: 20px;
+}
+
+#plan1 {
+    background-color: rgb(227, 249, 255);
+}
+
+#plan2 {
+    background-color: rgb(255, 235, 194);
+}
+
+#plan3 {
+    background-color: rgb(255, 223, 249);
+}
+
+/***************************
+        Send Gift
+****************************/
+
+.sendGift {
+    background-image: url(images/winmoney.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sendGiftContent {
+    padding: 180px 300px;
+    display: flex;
+}
+
+.sendGiftContentPartition {
+    width: 50%;
+}
+
+/* .sendGift h1 {
+    font-size: 45px;
+    color: blue;
+} */
+
+/* .sendGift h3 {
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-size: 17px;
+} */
+
+.callSection {
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.sendGift h4 {
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.call {
+    padding: 15px 0;
+    display: flex;
+}
+
+.call img {
+    width: 23px;
+}
+
+.callSpecificCall {
+    font-size: 20px;
+    margin: -5px 0 0px 10px;
+    color: #fff;
+    font-size: 22px;
+}
+
+/***************************
+        Depends On Dontaion
+****************************/
+
+.dontionDepend {
+    background-color: black;
+    padding: 0px 250px;
+}
+
+.donationDependContent {
+    display: flex;
+}
+
+.donationDependPart {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.donationDependPart img {
+    width: 90%;
+}
+
+.donationDependPart h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+.donationDependPart p {
+    color: rgb(206, 206, 206);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    line-height: 30px;
+
+
+}
+
+/***************************
+        Get My Updates
+****************************/
+
+.getMyUpdates {
+    text-align: center;
+    padding: 70px 100px;
+}
+
+.getMyUpdates h1 {
+    font-size: 50px;
+}
+
+.getMyUpdates p {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 20px 0 40px 0;
+}
+
+.getMyUpdatesForm {
+    display: flex;
+    background-color: rgb(212, 255, 216);
+    padding: 80px 300px;
+    margin: 0 50px;
+}
+
+.getMyUpdates input {
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 13px 15px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+.getMyUpdateFormSeperate2 button {
+    width: 100%;
+    border: none;
+    background-color: rgb(0, 189, 120);
+    color: #fff;
+    padding: 13px 0;
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.getMyUpdateFormSeperate1 {
+    width: 70%;
+}
+
+.getMyUpdateFormSeperate2 {
+    width: 30%;
+}
+
+
+/***************************
+        Footer
+****************************/
+footer {
+    background-color: black;
+    padding: 40px 0px;
+}
+
+footer h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: rgb(0, 189, 120);
+    font-size: 40px;
+}
+
+footer h3 {
+    color: rgb(226, 226, 226);
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
